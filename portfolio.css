@@ -2,6 +2,11 @@ body {
 	background-color: #191970;
 }
 
+.active {
+	background-color: #4CAF50;
+	color: white;
+}
+
 section {
 	display: flex;
 }
@@ -23,9 +28,10 @@ article{
 nav li {
 	float: left;
 	display: inline;
+	color: black;
 }
 
-a {
+nav a {
 	display: block;
 	padding: 8px;
 	background-color: white;
@@ -41,4 +47,8 @@ p {
 
 h1 {
 	color: #FFD700;
+}
+
+li {
+	color: white;
 }
