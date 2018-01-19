@@ -37,6 +37,12 @@ nav a {
 	background-color: white;
 }
 
+li a:hover {
+	background-color: #111;
+}
+}
+}
+
 h2 {
 	color: white;
 }
